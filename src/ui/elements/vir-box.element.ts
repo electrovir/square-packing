@@ -1,7 +1,7 @@
 import {css, defineElement, html} from 'element-vir';
 import type {BoxPlacement} from '../../data/run-algorithm.js';
 
-const boxSize = 40; // px
+const boxSize = 30; // px
 
 export const VirBox = defineElement<{
     boundingSize: number;
